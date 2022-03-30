@@ -1,0 +1,99 @@
+[
+    {
+        "type": "text",
+        "name": "firstName",
+        "placeholder": "First Name",
+        "label": "First Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required",
+                "message": "This field is required"
+            },
+            {
+                "type": "minLength",
+                "message": "This field must be at least 3 characters long",
+                "value": 3
+            },
+            {
+                "type": "maxLength",
+                "message": "This field must be less than 15 characters long",
+                "value": 15
+            }
+        ]
+    },
+    {
+        "type": "text",
+        "name": "lastName",
+        "placeholder": "Last Name",
+        "label": "Last Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required",
+                "message": "This field is required"
+            },
+            {
+                "type": "minLength",
+                "message": "This field must be at least 3 characters long",
+                "value": 3
+            },
+            {
+                "type": "maxLength",
+                "message": "This field must be less than 15 characters long",
+                "value": 15
+            }
+        ]
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "placeholder": "Email",
+        "label": "Email",
+        "value": "",
+        "validations": [
+            {
+                "type": "required",
+                "message": "This field is required"
+            },
+            {
+                "type": "email",
+                "message": "This field must be a valid email"
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "favoriteGame",
+        "label": "Favorite Game",
+        "value": "",
+        "options": [
+            {
+                "label": "Dota 2",
+                "id": "dota2"
+            },
+            {
+                "label": "League of Legends",
+                "id": "lol"
+            },
+            {
+                "label": "Counter Strike",
+                "id": "cs"
+            },
+            {
+                "label": "Overwatch",
+                "id": "ow"
+            },
+            {
+                "label": "Hearthstone",
+                "id": "hs"
+            }
+        ],
+        "validations": [
+            {
+                "type": "required",
+                "message": "This field is required"
+            }
+        ]
+    }
+]
