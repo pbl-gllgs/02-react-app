@@ -3,7 +3,6 @@ import * as Yup from 'yup';
 
 import formJson from '../data/custom-form.json';
 import { MyCustomSelect, MyTextInput } from '../components';
-import { type } from 'os';
 
 const initialValues: { [key: string]: any } = {};
 const requiredFields: { [key: string]: any } = {};
